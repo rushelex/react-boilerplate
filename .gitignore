@@ -1,0 +1,54 @@
+.jekyll-metadata
+.htaccess
+.DS_Store
+.sass-cache
+Gemfile.lock
+_site/
+_drafts/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+lerna-debug.log
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+# Build
+build
+dist
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage
+.nyc-coverage
+.nyc-coverage-temp
+lint-report.html
+.nyc_output/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# IDE
+.idea
+/.vscode
+
+# Environments
+.env*
+!.env.example
+
+# ESlint CLI cache
+.eslintcache
+
+# Generated
+/src/__generated__

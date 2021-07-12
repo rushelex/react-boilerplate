@@ -1,0 +1,7 @@
+configs
+dist
+node_modules
+public
+scripts
+/*.js
+/*.json

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "moduleResolution": "Node",
+    "module": "ESNext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "jsx": "react-jsx",
+    "outDir": "dist",
+    "sourceMap": true,
+    "allowJs": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "baseUrl": "src",
+    "paths": {
+      "~/*": ["*"],
+      "~assets/*": ["assets/*"],
+      "~components/*": ["components/*"],
+      "~services/*": ["services/*"]
+    }
+  },
+  "include": [
+    "./src/**/*",
+  ]
+}
